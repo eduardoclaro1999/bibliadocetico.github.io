@@ -1,0 +1,226 @@
+﻿body {background: #FFFFFF;
+ 	color: #404040;
+    font: 15px/25px Verdana;;
+	background-image:url(../images/body-bg.gif);
+	background-repeat:repeat-x;}
+
+#wrapper { 
+	
+}
+
+a, a:visited {
+    color: #E60000;
+    text-decoration: none;}
+a:hover {
+    color: #E60000;
+    text-decoration: underline;}
+a img {border: medium none;}
+a:focus, a:hover, a:active {
+    outline: medium none;}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #E60000;
+	font-family: Arial;
+	font-weight: bold;
+	text-decoration: none;
+	margin: 0 0 5px 0;
+	padding: 0;}
+
+h1 {
+	font-size: 32px;
+	line-height:34px;}
+	
+h2 {
+	font-size: 28px;
+	line-height:30px;}
+	
+h2 a, h2 a:visited {
+	color: #444444;
+	text-decoration: none;}
+
+h2 a:hover {
+	color: #CC3300;
+	text-decoration: none;}
+	
+h3 {font-size: 22px;}
+	
+h4 {font-size: 18px;}
+	
+h5 {font-size: 16px;}
+	
+h6 {font-size: 14px;}
+
+p {
+	margin: 0;
+	padding: 0 0 10px 0;}
+	
+ul {
+	list-style-type: square;
+	margin: 0;
+	padding: 0 0 15px 0;}
+	
+ul li {
+	list-style-type: square;
+	margin: 0 0 0 20px;
+	padding: 0;}
+	
+ul ul {
+	list-style-type: square;
+	margin: 0;
+	padding: 0;}
+
+ol {
+	margin: 0;
+	padding: 0 0 15px 0;}
+	
+ol li {
+	margin: 0 0 0 20px;
+	padding: 0;}
+	
+ol ol {
+	margin: 0;
+	padding: 0;}
+
+
+
+#header {
+    margin: 0 auto;
+    padding: 0;}
+#header .inner {
+	
+}
+#logo {
+    float: left;
+    margin: 0;
+    overflow: hidden;
+    padding: 15px 0 0;}
+#logo h1 {
+    font-family: Arial;
+    font-size: 50px;
+    font-weight: normal;
+    line-height: 70px;
+    margin: 0;
+    padding: 0 0 0 20px;}
+#logo h1 a {
+    color: #E60000;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;}
+#logo h1 a:hover {
+    color: #E60000;
+    text-decoration: none;}
+#logo #slogan {
+    color: #999999;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: normal;
+    margin: 0;
+    padding: 0 0 0 20px;}
+
+/*----------------- nav ------------------*/
+
+#nav ul
+{
+list-style-type:none;
+margin:45px 0 0;
+padding:0;
+padding-top:6px;
+padding-bottom:6px;
+text-align:right;}
+#nav ul li
+{
+display:inline;
+}
+#nav ul li a:link, #nav ul li a:visited
+{
+color:#ccc;
+font-family: Arial;
+text-align:center;
+padding:6px;
+text-decoration:none;
+text-transform:uppercase;}
+#nav ul li a:hover, #nav ul li a:active
+{
+background-color:#E60000;
+color:#FFF;
+}
+
+
+/*----------------------- banner ----------------*/
+#banner .inner {
+	height:270px;
+	background-image:url(../images/banner-bg.jpg);
+	background-repeat:no-repeat;}
+
+#banner .inner h2 {
+  color: #FFFFFF;
+    font-family:Lobster;
+    font-size: 32px;
+    font-style: italic;
+    line-height: 35px;
+    padding: 88px;}
+
+#content .inner {
+}
+
+#home-bottom {
+	border-top:1px solid #D6D6D6;
+	margin:15px 0 0 0;
+	padding:15px 0 0 0;
+	background-image:url(http://bibliadocetico.net/images/vert-line.gif);
+	background-repeat:repeat-y;
+	background-position: 310px top;}
+
+#col1 {
+	
+}
+
+/*-------------- sidebar ------------------*/
+
+#sidebar .inner {
+	/*border:1px solid #D6D6D6;
+	width:298px;*/
+}
+#latest {
+	margin:0;
+    padding: 10px;
+}
+#sidebar h2 {
+	color:#E60000;
+	padding:10px;
+	margin:0px;
+}
+#sidebar a {
+    text-decoration:underline;}
+#sidebar a:hover {
+    text-decoration:none;}
+
+.pad {
+	margin-bottom:15px;}
+
+.date {
+	font-weight:bold;
+	color:#E60000;}
+
+
+
+/*------------------ footer ------------------*/
+
+#footer {
+	margin-top:15px;
+	
+}
+
+#footer .inner {
+	background-color:#E60000;
+	color:#FFF;
+	font-size:10px;
+	text-align:center;
+	
+}
+
+#footer .inner a {
+    color: #fff;
+    text-decoration: none;}
+#footer .inner a:hover {
+    text-decoration:underline;}
