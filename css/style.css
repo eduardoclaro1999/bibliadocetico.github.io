@@ -9,17 +9,17 @@
 }
 
 a, a:visited {
-    color: #E60000;
+    color: #000000;
     text-decoration: none;}
 a:hover {
-    color: #E60000;
+    color: #000000;
     text-decoration: underline;}
 a img {border: medium none;}
 a:focus, a:hover, a:active {
     outline: medium none;}
 
 h1, h2, h3, h4, h5, h6 {
-	color: #E60000;
+	color: #FFFFFF;
 	font-family: Arial;
 	font-weight: bold;
 	text-decoration: none;
@@ -35,11 +35,11 @@ h2 {
 	line-height:30px;}
 	
 h2 a, h2 a:visited {
-	color: #444444;
+	color: #000000;
 	text-decoration: none;}
 
 h2 a:hover {
-	color: #CC3300;
+	color: #000000;
 	text-decoration: none;}
 	
 h3 {font-size: 22px;}
@@ -102,15 +102,15 @@ ol ol {
     margin: 0;
     padding: 0 0 0 20px;}
 #logo h1 a {
-    color: #E60000;
+    color: #000000;
     margin: 0;
     padding: 0;
     text-decoration: none;}
 #logo h1 a:hover {
-    color: #E60000;
+    color: #000000;
     text-decoration: none;}
 #logo #slogan {
-    color: #999999;
+    color: #000000;
     font-size: 18px;
     font-style: italic;
     font-weight: normal;
@@ -133,7 +133,7 @@ display:inline;
 }
 #nav ul li a:link, #nav ul li a:visited
 {
-color:#ccc;
+color:#FFFFFF;
 font-family: Arial;
 text-align:center;
 padding:6px;
@@ -141,7 +141,7 @@ text-decoration:none;
 text-transform:uppercase;}
 #nav ul li a:hover, #nav ul li a:active
 {
-background-color:#E60000;
+background-color:#404040;
 color:#FFF;
 }
 
@@ -149,7 +149,6 @@ color:#FFF;
 /*----------------------- banner ----------------*/
 #banner .inner {
 	height:270px;
-	background-image:url(../images/banner-bg.jpg);
 	background-repeat:no-repeat;}
 
 #banner .inner h2 {
@@ -157,14 +156,14 @@ color:#FFF;
     font-family:Lobster;
     font-size: 32px;
     font-style: italic;
-    line-height: 35px;
+    line-height: 25px;
     padding: 88px;}
 
 #content .inner {
 }
 
 #home-bottom {
-	border-top:1px solid #D6D6D6;
+	border-top:1px solid #000000;
 	margin:15px 0 0 0;
 	padding:15px 0 0 0;
 	background-image:url(http://bibliadocetico.net/images/vert-line.gif);
@@ -186,7 +185,7 @@ color:#FFF;
     padding: 10px;
 }
 #sidebar h2 {
-	color:#E60000;
+	color:#000000;
 	padding:10px;
 	margin:0px;
 }
@@ -200,7 +199,7 @@ color:#FFF;
 
 .date {
 	font-weight:bold;
-	color:#E60000;}
+	color:#000000;}
 
 
 
@@ -212,7 +211,7 @@ color:#FFF;
 }
 
 #footer .inner {
-	background-color:#E60000;
+	background-color:#000000;
 	color:#FFF;
 	font-size:10px;
 	text-align:center;
