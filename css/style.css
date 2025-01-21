@@ -4,9 +4,6 @@
 	background-image:url(../images/body-bg.gif);
 	background-repeat:repeat-x;}
 
-#wrapper { 
-	
-}
 
 a, a:visited {
     color: #000000;
@@ -86,9 +83,7 @@ ol ol {
 #header {
     margin: 0 auto;
     padding: 0;}
-#header .inner {
-	
-}
+
 #logo {
     float: left;
     margin: 0;
@@ -159,8 +154,7 @@ color:#FFF;
     line-height: 27px;
     padding: 88px;}
 
-#content .inner {
-}
+
 
 #home-bottom {
 	border-top:1px solid #000000;
@@ -170,15 +164,13 @@ color:#FFF;
 	background-repeat:repeat-y;
 	background-position: 310px top;}
 
-#col1 {
-	
-}
+
 
 /*-------------- sidebar ------------------*/
 
 #sidebar .inner {
-	/*border:1px solid #D6D6D6;
-	width:298px;*/
+	border:1px solid #000000;
+	width:298px;
 }
 #latest {
 	margin:0;
