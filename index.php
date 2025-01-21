@@ -14,35 +14,7 @@
 .style5 {color: #FFFFFF;}
 </style>
 </head>
-
-<body>
-<div id="wrapper">
-	<div id="header">
-    	<div class="inner container_12 clearfix">
-        	<div id="logo" class="grid_5">
-            	<p><img alt="BCC" src="images/logo.png" width="106" height="122" style="float: left" /></p>
-				<h2>Bíblia do Cético Comentada Atualizada </h2>
-                <p id="slogan" class="style4">2025</p>
-            </div><!-- end logo -->
-            
-            <div id="nav" class="grid_7">
-            	<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="downloads.html">Downloads</a></li>
-					<li><a href="categorias.html">Categorias</a></li>
-				</ul>
-            </div><!-- end nav -->
-        </div><!-- end header inner -->
-    </div><!-- end header -->
-    
-<div id="banner">
-    	<div class="inner container_12 clearfix">
-        	<h2 class="style1">Chamar a Bíblia de livro inspirado por deus ou de lei moral é 
-			uma afronta à dignidade e a inteligência humana.</h2>
-        
-        </div><!-- end banner inner -->
-    </div><!-- end banner -->
+<?php include('includes/topo.php');?>
     
     <div id="content">
     	<div class="inner container_12 clearfix">
@@ -185,13 +157,4 @@
     <div id="footer">
     	<div class="inner">
         
-         <p>Copyright © 2025 - Bíblia do Cético Comentada Atualizada
-		<a >por Eduardo Monteiro</a><br /> projeto original por <a href="mailto:biblia@bibliadocetico.net">Rogerio Moreira</a><br />
-		<a href="termos.html">Termos de Uso</a></p>
-        
-        </div><!-- end footer inner -->
-    </div><!-- end footer -->
-
-</div><!-- end wrapper -->
-</body>
-</html>
+        <?php include('includes/baixo.php');?>
